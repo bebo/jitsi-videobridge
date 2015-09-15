@@ -883,7 +883,7 @@ class HandlerImpl
                             request,
                             response);
                 }
-                else if (PATCH_HTTP_METHOD.equals(requestMethod))
+                else if (PATCH_HTTP_METHOD.equals(requestMethod) || PUT_HTTP_METHOD.equals(requestMethod))
                 {
                     // Modify a Conference of Videobridge.
                     doPatchConferenceJSON(

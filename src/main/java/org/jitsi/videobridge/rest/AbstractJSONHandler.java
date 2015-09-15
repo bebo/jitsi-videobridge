@@ -70,6 +70,11 @@ public abstract class AbstractJSONHandler
     protected static final String PATCH_HTTP_METHOD = "PATCH";
 
     /**
+     * The HTTP PUT method.
+     */
+    protected static final String PUT_HTTP_METHOD = "PUT";
+
+    /**
      * The HTTP POST method.
      */
     protected static final String POST_HTTP_METHOD = "POST";
